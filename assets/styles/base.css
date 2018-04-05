@@ -1,0 +1,123 @@
+﻿@charset "utf-8";
+html {
+	font-family: "Encode Sans", sans-serif;
+	font-size: 14px;
+	color: #919499;
+}
+body {
+	background-color: #f4f8f3;
+	background-image: url(../images/bg-slice.png);
+	background-repeat: repeat;
+	background-position: 50%;
+}
+small {
+	font-size: .85em;
+}
+strong, b {
+	font-weight: 700;
+}
+a:link, a:visited {
+	color: rgb(247, 146, 31) 100%;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+::-moz-selection {
+ background: #575d66;
+ color: #fff;
+}
+::selection {
+	background: #575d66;
+	color: #fff;
+}
+hr {
+	background-color: #575d66;
+	margin: 40px auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: rgb(247, 146, 31) 100%;
+	margin-bottom: 1em;
+}
+h1 {
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 50px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+p, blockquote, ul, ol, dl {
+	margin-bottom: 1.5em;
+}
+blockquote, ul, ol {
+	padding-left: 2.5em;
+}
+dl dt {
+	font-weight: 700;
+	margin-bottom: .225em;
+}
+dl dd:not(:last-of-type) {
+	margin-bottom: 1.25em;
+}
+blockquote {
+	padding-right: 2.5em;
+}
+p:last-child, blockquote:last-child, ul:last-child, ol:last-child, dl:last-child {
+	margin-bottom: 0;
+}
+p, textarea, ul li, ol li, table td, dl dd {
+	line-height: 1.5;
+}
+a.sf, a.sf-b {
+	font: inherit;
+	color: inherit;
+	text-decoration: inherit;
+	border: none;
+}
+a.sf-b {
+	display: block;
+}
+p.sf {
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+}
+ul.sf, ol.sf {
+	list-style: none;
+}
+dl.sf, dl.sf > dt, dl.sf > dd, ol.sf, ol.sf > li, ul.sf, ul.sf > li {
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+}
+hr.sf {
+	background-color: transparent;
+}
+.container, .container-full {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	display: block;
+}
+.container-full {
+	min-width: 1300px;
+	width: 100%;
+	max-width: 100%;
+}
